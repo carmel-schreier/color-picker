@@ -1,2 +1,2 @@
 # color-picker
-My vanilla javascript priject
+My vanilla javascript project
