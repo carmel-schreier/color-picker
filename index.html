@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color-Picker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="color-picker.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-box">Choose RGB color parameters</div>
+        <form id="number-inputs" action="">
+            <div class="input-container">
+                <div class="numb-wrap">
+                    <input class="number R" type="number" placeholder="Enter a number" />
+                    <h3 class="letters">R</h3>
+                    <div class="error-hint hidden">*must be smaller then 255</div>
+                </div>
+                <div class="numb-wrap">
+                    <input class="number G" type="number" placeholder="Enter a number" />
+                    <h3 class="letters">G</h3>
+                    <div class="error-hint hidden">*must be smaller then 255</div>
+                </div>
+                <div class="numb-wrap">
+                    <input class="number B" type="number" placeholder="Enter a number" />
+                    <h3 class="letters">B</h3>
+                    <div class="error-hint hidden">*must be smaller then 255</div>
+                </div>
+            </div>
+
+            <input class="submit-btn" type="submit" value="show color" />
+        </form>
+        <div class="color-container"></div>
+
+        <div class="saved-colors">
+            <h3 class="saved">My colors</h3>
+        </div>
+        <!-- <button class="clear-saved">clear saved</button> -->
+    </div>
+</body>
+
+</html>
